@@ -1,5 +1,15 @@
+# -*- coding: utf-8 -*-
+
 {
     'name': 'Estate Application',
     'application': True,
-    'installable': True
+    'installable': True,
+    'depends': [
+        'base',
+    ],
+    'data': [
+        'security/ir.model.access.csv',
+
+        'views/estate_property_views.xml',
+    ]
 }
