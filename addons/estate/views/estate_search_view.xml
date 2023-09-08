@@ -12,7 +12,7 @@
                 <field name="living_area" string="Living Area (sqm)" />
                 <field name="facades" />
 
-                <filter name="available" string="Available" domain="['|',('state', '=', 'new'),('estate', '=', 'offer')]"  />
+                <filter name="available" string="Available" domain="['|',('state', '=', 'new'),('state', '=', 'offer')]"  />
                 <filter name="postcode" string="Postcode" context="{'group_by': 'postcode'}" />
             </search>
         </field>

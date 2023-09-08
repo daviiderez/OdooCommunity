@@ -13,8 +13,10 @@
                     <h1>
                         <field name="name" />
                     </h1>
+                    <field name="tag_ids" widget="many2many_tags" />
                     <group col="2">
                         <group>
+                            <field name="property_type" string="Property Type" />
                             <field name="postcode" />
                             <field name="date_availability" />
                         </group>
@@ -33,6 +35,12 @@
                                 <field name="garage" />
                                 <field name="garden_area" string="Garden" />
                                 <field name="garden_orientation" />
+                            </group>
+                        </page>
+                        <page string="Other Info">
+                            <group >
+                                <field name="partner_id" string="Salesman" />
+                                <field name="user_id" string="Buyer" />
                             </group>
                         </page>
                     </notebook>

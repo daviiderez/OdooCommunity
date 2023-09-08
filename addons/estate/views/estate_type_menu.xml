@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        <menuitem id="estate_type_1_menu" name="Settings" parent="menu_estate_root" >
+            <menuitem
+                id="estate_model_menu_action_2"
+                action="first_estate_type_module" />
+        </menuitem>
+
+</odoo>
