@@ -16,6 +16,8 @@
         'views/estate_form_views.xml',
         'views/estate_search_view.xml',
         'views/estate_type_menu.xml',
-        'views/estate_tags_menu.xml'
+        'views/estate_tags_menu.xml',
+        'views/estate_offer_form_view.xml',
+        'views/estate_offer_tree_view.xml'
     ]
 }
